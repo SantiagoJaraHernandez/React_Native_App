@@ -8,7 +8,7 @@ interface LoaderContextType {
 }
 
 // Creamos el contexto
-const LoaderContext = createContext<LoaderContextType | undefined>(undefined);
+export const LoaderContext = createContext<LoaderContextType | undefined>(undefined);
 
 // Componente que provee el estado global del loader
 export const LoaderProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {

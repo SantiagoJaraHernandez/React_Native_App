@@ -10,9 +10,11 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.1.0",
     "@react-native-community/cli": "latest",
     "@react-navigation/native": "^7.0.4",
     "@react-navigation/stack": "^7.0.6",
+    "axios": "^1.7.7",
     "lottie-react-native": "^7.1.0",
     "react": "18.3.1",
     "react-native": "0.76.3",

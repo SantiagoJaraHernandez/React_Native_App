@@ -7,6 +7,7 @@ import HomeScreen from '../screens/HomeScreen';
 import AuthScreen from '../screens/AuthScreen';
 import RegisterScreen from '../screens/RegisterScreen';
 import { LoaderProvider } from '../context/LoaderContex'; // Importamos el proveedor del loader
+import TareasScreen from '../screens/TareasScreen';
 
 const Stack = createStackNavigator();
 
@@ -31,6 +32,7 @@ const AppNavigator = () => {
           <Stack.Screen name="Home" component={HomeScreen} />
           <Stack.Screen name="Auth" component={AuthScreen} />
           <Stack.Screen name="Register" component={RegisterScreen} />
+          <Stack.Screen name="Dashboard" component={TareasScreen} />
         </Stack.Navigator>
       </NavigationContainer>
     </LoaderProvider>
